@@ -26,13 +26,13 @@ October 2021
  1. Previous configuration of a Twilio account [Twilio](https://twilio.com)
  2. Python modules Jinja2 e twilio
  3. Create environment variables with twilio account tokens and message service tokens
-    
-
-    E.G.
-    export export TWILLIO_SID=ABjkbr2jkçbrsdjkçdsa5d727f5e0df
-    export TWILLIO_TOKEN=c3dasde96f27asd13368dsdqq83asdasdsad
-    export MESSAGING_MARKETSERVICES=MG23402378920348349289348924889234'
-
+ ``` 
+ E.G.
+ export export TWILLIO_SID=ABjkbr2jkçbrsdjkçdsa5d727f5e0df
+ export TWILLIO_TOKEN=c3dasde96f27asd13368dsdqq83asdasdsad
+ export MESSAGING_MARKETSERVICES=MG23402378920348349289348924889234'
+```
+   
 4. Change the value __messaging_service_sid__ in the function __send_message__ from file __twilioSendMessage.py__ to 
    the desired value.
 
