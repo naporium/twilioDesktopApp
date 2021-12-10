@@ -1,0 +1,5 @@
+# Project exclude paths
+/venv/
+/configBackUp.py
+/keys1.sh
+/Logs/TwilioLog.log

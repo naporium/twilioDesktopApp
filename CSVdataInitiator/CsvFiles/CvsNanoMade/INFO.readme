@@ -1,0 +1,48 @@
+---
+Ficheiros:
+
+    - lista1.cvs
+      - separador: ,
+      - problemas: nenhum
+
+    - lista2.cvs
+      - separador: ;
+      - problemas: nenhum
+
+    - lista3.cvs
+      - separador: ,
+      - problemas: 
+         - caracter espaço branco entre delimitador virgula e campo no Header
+         - o mesmo mas em alguns registos: linha 2,4           
+
+    - lista4.cvs
+      - separador: ,
+      - problemas: 
+          - Acrecentadas 3 linhas vazias no final do ficheiro 
+            CARRRIGE RETURN
+
+     - lista5.cvs
+      - separador: ,
+      - problemas: 
+        linha4: l3,2c nao tem registo mas existem os delimitadores
+
+     - lista6.cvs
+      - separador: ,
+      - problemas: 
+        linha4: l3,2c nao tem registo e nao existem os delimitadores
+                ou seja nao tem esse campo
+
+     - lista7.cvs
+      - separador: ,
+      - problemas: 
+        linha4: elimincação de um campo de HEADER (3 coluna)
+
+     - lista8.cvs
+      - separador: ,
+      - problemas: 
+        linha4: colocação de delimitador ; entre campos de colunas: 1 e 2
+
+
+        
+
+

@@ -1,0 +1,9 @@
+---
+FICHEIROS
+    ficheiro:lista1.ods
+      - tipo: ods file format 
+      - delimiter: normal
+
+    ficheiro:lista1.xlsx
+      - tipo:  ofice 2007/365 
+      - delimiter: normal
